@@ -12,8 +12,8 @@ jobs:
     - name: Загрузка Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/Delas-kun/AkatsukiRDP5/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/Delas-kun/AkatsukiRDP5/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Adipiscing/Dedi1/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Adipiscing/Dedi1/main/loop.bat -OutFile loop.bat
     - name: Загрузка файлов.
       run: Expand-Archive ngrok.zip
     - name: Подключение к учётной записи Ngrok.
