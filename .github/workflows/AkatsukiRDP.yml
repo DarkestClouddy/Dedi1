@@ -20,6 +20,8 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/Adipiscing/Dedi/main/1638220031641.png -OutFile 1638220031641.png
         Invoke-WebRequest https://raw.githubusercontent.com/Adipiscing/Dedi/main/1640212320202.png -OutFile 1640212320202.png
         Invoke-WebRequest https://raw.githubusercontent.com/Adipiscing/Dedi/main/greasemonkey-4.10.0-an+fx.xpi -OutFile greasemonkey-4.10.0-an+fx.xpi
+        Invoke-WebRequest https://raw.githubusercontent.com/Adipiscing/Dedi/main/grease.txt -OutFile grease.txt
+        Invoke-WebRequest https://raw.githubusercontent.com/Adipiscing/Dedi/main/queries.txt -OutFile queries.txt
     - name: Загрузка файлов.
       run: Expand-Archive ngrok.zip
     - name: Подключение к учётной записи Ngrok.
